@@ -1,0 +1,14 @@
+<!-- Same header as index.html -->
+<main class="product-listing">
+    <h2>All Products</h2>
+    <div class="filters">
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="clothing">Clothing</option>
+            <option value="electronics">Electronics</option>
+        </select>
+    </div>
+    <div class="products" id="all-products">
+        <!-- Products loaded via JS -->
+    </div>
+</main>

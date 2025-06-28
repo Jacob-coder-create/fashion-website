@@ -1,0 +1,11 @@
+<!-- Same header -->
+<main class="cart">
+    <h2>Your Cart</h2>
+    <div id="cart-items">
+        <!-- Cart items loaded via JS -->
+    </div>
+    <div class="cart-total">
+        Total: $<span id="total-price">0.00</span>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </div>
+</main>
